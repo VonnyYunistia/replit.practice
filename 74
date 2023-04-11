@@ -1,0 +1,23 @@
+public static void main(String[]  args){
+
+int[] year=new int[11];
+
+    int num=2010;
+    
+    for (int i=0; i<year.length; i++){
+        
+      year[i]=num;
+      num=num+1;
+}
+      for (int number : year){
+
+        System.out.println(number);
+      }
+
+System.out.println();
+
+
+
+
+    
+  }
